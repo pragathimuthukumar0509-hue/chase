@@ -1,0 +1,362 @@
+.nav{
+    position: relative;
+    left: 800px;
+    bottom: 50px;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+    text-decoration: none;
+}
+.header{
+    position: relative;
+    left: 3px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+}
+.box{
+    border: 3px solid mediumseagreen;
+    position: relative;
+    left: 1290px;
+    bottom: 90px;
+    font-size: 20px;
+    border-radius: 40px;
+    color: mediumseagreen;
+    font-family: 'Arimo', sans-serif;
+    width: 200px;
+    height: 40px;
+}
+.chase{
+    position: relative;
+    top: 120px;
+    left:500px ;
+   font-size: 120px;
+   font-family: 'Arimo', sans-serif;
+}
+.clean{
+    position: absolute;
+    font-size: 22px;
+    left: 500px;
+    font-family: 'Arimo', sans-serif;
+}
+.try{
+    position: relative;
+    left:460px ;
+    top: 80px;
+    font-size: 20px;
+    width: 240px;
+    height: 50px;
+    border-color:none;
+    background-color: mediumseagreen;
+    border-radius: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+}
+.learn{
+    position: relative;
+    left: 540px;
+    top:80px ;
+    border: 1px solid black;
+    font-size:20px ;
+    border-radius: 40px;
+    font-family: 'Arimo', sans-serif;
+    width: 260px;
+    height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.banner{
+    background-image: url("C:/Users/BG TECH/Desktop/html/background.JPG");
+    width: 1600px;
+    height: 840px;
+}
+.what{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-weight: 700px;
+     font-family: 'Arimo', sans-serif;
+     font-size: 50px;
+}
+.watch{
+    position: absolute;
+    text-align: center;
+    left: 600px;
+    font-size:20px ;
+    color: mediumseagreen;
+    font-weight: bold;
+}
+.video{
+    position: relative;
+    top: 90px;
+    left: 400px;
+}
+.begin{
+    position: relative;
+    top: 120px;
+    left: 640px;
+    background-color: mediumseagreen;
+    color: white;
+    border-radius: 40px;
+    text-transform: uppercase;
+    width: 230px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.services{
+    position: relative;
+    top: 300px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+*{
+     font-family: 'Arimo', sans-serif;
+
+}
+.do{
+    position: relative;
+    top: 270px;
+    text-align: center;
+    font-size: 20px;
+    color: mediumseagreen;
+    font-weight: bold;
+}
+.shadow{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 400px;
+    left: 200px;
+    text-align: center;
+    
+}
+.shadow:hover{
+    
+    box-shadow: 0 5px 15px gray;
+}
+
+.camera{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 90px;
+    left: 600px;
+    text-align: center;
+}
+.camera:hover{
+    
+    box-shadow: 0 5px 15px gray;
+}
+
+.flim{
+    position: relative;
+    left: 1000px;
+    width: 300px;
+    height: 300px;
+    bottom: 230px;
+    text-align: center;
+}
+.flim:hover{
+    
+    box-shadow: 0 5px 15px gray;
+}
+
+
+.m{
+    color: mediumseagreen;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+}
+.o{
+  color: mediumseagreen;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;  
+}
+.r{
+    color: mediumseagreen;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+}
+.bulb{
+    position: relative;
+    left: 250px;
+    bottom: 80px;
+}
+.love{
+    position: relative;
+    left: 800px;
+    width: 450px;
+    bottom: 550px;
+
+}
+.we{
+    font-size: 60px;
+}
+.to{
+    color: mediumseagreen;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.feature{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon{
+    background-color: mediumseagreen;
+    align-items: flex-start;
+    width: 50%;
+    margin-bottom: 100px;
+}
+.icon img {
+   width: 110px;
+}
+.icon p{
+    color: white;
+    font-size: 20px;
+}
+.icon h2 {
+     margin: 0 0 25px;
+    color: white;
+}
+.talk{
+    position: relative;
+    left: 250px;
+    width: 420px;
+}
+.let{
+   font-size: 50px;    
+}
+.need{
+    font-size: 20px;
+    color: mediumseagreen;
+}
+.bubble{
+    position: relative;
+    left: 800px;
+    bottom: 350px;
+    width: 600px;
+}
+.sit{
+    line-height: 1.5;
+}
+.lead{
+    font-size: 54px;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
+.know{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: mediumseagreen;
+    position: relative;
+    bottom: 100px;
+}
+.john{
+    position: relative;
+    left: 200px;
+    width: 300px;
+    height: 500px;
+}
+.john:hover{
+    
+    box-shadow: 0 5px 15px gray;
+}
+.mills{
+    position: relative;
+    bottom: 500px;
+    left: 700px;
+    width: 300px;
+    height: 500px;
+}
+.mills:hover{
+    
+    box-shadow: 0 5px 15px gray;} 
+
+
+.scott{
+    position: relative;
+    bottom: 1000px;
+    left: 1100px;
+    width: 500px;
+    height: 500px;
+}
+.scott:hover{
+    
+    box-shadow: 0 5px 15px gray;
+} 
+.GARRET{
+  border-radius: 120px;
+  width: 230px;  
+}
+.ALICE{
+    border-radius: 120px;
+  width: 230px;  
+}
+.HARRIS{
+  border-radius: 120px;
+  width: 230px;    
+}
+.facebook {
+    display: flex;
+    gap: 12px;
+}
+
+.facebook  {
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 28px;
+}
+.twitter{
+    position: relative;
+    left: 70px;
+    bottom: 60px;
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 28px;
+}
+.google{
+   position: relative;
+    left: 10px;
+    bottom: 60px;
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 28px; 
+}

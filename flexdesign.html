@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            position: relative;
+            left: 600px;
+        }
+        .nav{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .box{
+            position: relative;
+            bottom: 800px;
+            left: 800px;
+        }
+        .box{
+            
+            gap: 20px;
+        }
+        .foot{
+            position: fixed;
+            bottom: 300px;
+            
+        } 
+        .bar{
+            position: relative;
+            left: 300px;
+        }
+        .imp{
+            position: relative;
+            left: 300px;
+        }
+        .risk{
+            position: relative;
+            left: 800px;
+            bottom: 800px;
+        }
+        .child{
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            bottom: 700px;
+            left: 300px;
+        }
+        *{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <h1>INSURANCE</h1>
+    </header>
+    <nav class="nav">
+        <a href="/">about</a>
+        <a href="/">home</a>
+        <a href="/">contact</a>
+    </nav>
+    <section>
+        <main class="bar">
+            <h2>general insurance</h2>
+            <img src="general.jpg" alt="description of image" width="200px" height="250px">
+            <p>General insurance protects your valuable <br>assets from financial loss caused by unexpected<br> events. Unlike life insurance, which covers <br>human life, general insurance focuses on non-life<br> assets like homes, cars, health, and businesses.</p>
+        </main>
+        <main class="imp">
+            <h2>Importance of insurance</h2>
+            <img src="impinsurance.jpg" alt="description of image" width="200px" height="250px">
+            <p>Insurance is a vital financial tool that <br>protects you from unexpected losses and helps<br> maintain your financial stability</p>
+        </main>
+        <article class="box">
+            <h2>life insurance</h2>
+            <img src="lifejpg.jpg" alt="description of image" width="200px" height="250">
+            <p>Life insurance is a legal contract where an insurance <br>company promises to pay a cash amount to your<br> family or chosen beneficiaries when you pass away, <br>in exchange for regular payments called premiums</p>
+        </article>
+        <article class="risk">
+            <h2>risk insurance</h2>
+            <img src="risl.jpg" alt="description of image" width="200px" height="250px">
+            <p>In insurance, risk is the chance or uncertainty of<br> an economic loss caused by an unexpected<br> and accidental event.</p>
+        </article>
+    </section>
+    <aside class="child">
+        <h2>product</h2><br><br><br>
+        <p><img src="general.jpg" width="300px" height="250px">
+        <img src="lifejpg.jpg" width="300px" height="250px">
+        <img src="impinsurance.jpg" width="300px" height="250px">
+        <img src="risl.jpg" width="300px" height="250px">
+        <img src="stock.jpg" width="300px" height="250px"></p>
+    </aside>
+    <footer class="foot">
+        <address>
+            3/45, kalapattiroad,<br>
+            nehro nagar, avinashi,<br>
+            coimbatore.
+        </address>
+    </footer>
+   
+</body>
+</html>
