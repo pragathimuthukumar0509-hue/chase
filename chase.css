@@ -268,8 +268,9 @@
 .john{
     position: relative;
     left: 200px;
-    width: 300px;
-    height: 500px;
+    width: 200px;
+    height: 400px;
+    padding: 80px;
 }
 .john:hover{
     
@@ -277,10 +278,11 @@
 }
 .mills{
     position: relative;
-    bottom: 500px;
-    left: 700px;
-    width: 300px;
-    height: 500px;
+    bottom: 570px;
+    left: 630px;
+    width: 200px;
+    height: 450px;
+    padding: 80px;
 }
 .mills:hover{
     
@@ -289,10 +291,11 @@
 
 .scott{
     position: relative;
-    bottom: 1000px;
-    left: 1100px;
-    width: 500px;
-    height: 500px;
+    bottom: 1190px;
+    left: 1050px;
+    width: 200px;
+    height: 400px;
+    padding: 80px;
 }
 .scott:hover{
     
@@ -326,7 +329,7 @@
     align-items: center;
 
     color: white;
-    font-size: 28px;
+    font-size: 28px;   
 }
 .twitter{
     position: relative;
@@ -346,8 +349,8 @@
 }
 .google{
    position: relative;
-    left: 10px;
-    bottom: 60px;
+    left: 140px;
+    bottom: 120px;
     width: 50px;
     height: 60px;
     border-radius: 50%;
@@ -359,4 +362,97 @@
 
     color: white;
     font-size: 28px; 
+}
+.facebook:hover{
+    background-color: rgb(15, 153, 15);
+    padding: 2px;
+    border-radius: 50px;
+}
+.twitter:hover{
+    background-color: rgb(15, 153, 15);
+    padding: 2px;
+    border-radius: 50px;
+}  
+.google:hover{
+  background-color: rgb(15, 153, 15);
+    padding: 2px;
+    border-radius: 50px;  
+}
+.port{
+    position: relative;
+    bottom: 1100px;
+    text-align: center;
+    font-size: 50px;
+}
+.our{
+    color: mediumseagreen;
+    font-size: 20px;
+    position: relative;
+    bottom: 1100px;
+    text-align: center;
+    font-weight: bold;
+}
+.pic{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    position: relative;
+    bottom: 1000px;
+    left: 200px;
+}
+.sub{
+    font-size: 50px;
+    position: relative;
+    bottom: 800px;
+    text-align: center;
+
+}
+.stay{
+    font-size: 20px;
+    position: relative;
+    bottom: 800px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.name{
+    border-radius: 40px;
+    position: relative;
+    bottom: 700px;
+    left: 300px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+}
+.email{
+    border-radius: 40px;
+    position: relative;
+    bottom: 700px;
+    left: 350px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+}
+.mit{
+    border-radius: 40px;
+    position: relative;
+    bottom: 700px;
+    left: 400px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+}
+.it{
+    position: relative;
+    bottom: 500px;
+    text-align: center;
+    font-size: 50px;
+}
+.cool{
+    position: relative;
+    bottom: 500px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
