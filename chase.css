@@ -24,7 +24,8 @@
     color: mediumseagreen;
     font-family: 'Arimo', sans-serif;
     width: 200px;
-    height: 40px;
+    height: 55px;
+    font-weight: bold;
 }
 .chase{
     position: relative;
@@ -114,10 +115,7 @@
     font-size: 60px;
     font-weight: bold;
 }
-*{
-     font-family: 'Arimo', sans-serif;
 
-}
 .do{
     position: relative;
     top: 270px;
@@ -130,9 +128,12 @@
     width: 300px;
     height: 300px;
     position: relative;
-    top: 400px;
+    top: 390px;
     left: 200px;
     text-align: center;
+    padding: 40px;
+    line-height: 25px;
+
     
 }
 .shadow:hover{
@@ -144,9 +145,10 @@
     width: 300px;
     height: 300px;
     position: relative;
-    top: 90px;
+    top: 20px;
     left: 600px;
     text-align: center;
+    padding: 40px;
 }
 .camera:hover{
     
@@ -158,8 +160,9 @@
     left: 1000px;
     width: 300px;
     height: 300px;
-    bottom: 230px;
+    bottom: 370px;
     text-align: center;
+    padding: 40px;
 }
 .flim:hover{
     
@@ -209,25 +212,63 @@
     font-size: 20px;
 }
 
-.feature{
-    display: flex;
-    flex-wrap: wrap;
-}
-.icon{
+.features{
     background-color: mediumseagreen;
-    align-items: flex-start;
-    width: 50%;
-    margin-bottom: 100px;
+    height: 700px;
+    position: relative;
+    bottom: 200px;
 }
-.icon img {
-   width: 110px;
+.eye{
+    position: relative;
+    top: 180px;
+    left: 150px;
 }
-.icon p{
+.attent{
+    width: 300px;
+    position: relative;
+    left: 280px;
+    top: 80px;
+    line-height: 25px;
     color: white;
-    font-size: 20px;
 }
-.icon h2 {
-     margin: 0 0 25px;
+.clock{
+    position: relative;
+    left: 800px;
+    bottom: 60px;
+}
+.save{
+    position: relative;
+    left: 930px;
+    bottom: 190px;
+    width: 300px;
+    line-height: 25px;
+    color: white;
+}
+.dash{
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+}
+.com{
+    position: relative;
+    left: 280px;
+    bottom: 220px;
+    width: 300px;
+    line-height: 25px;
+    color: white;
+}
+.headset{
+    position: relative;
+    left: 800px;
+    bottom: 375px;
+    width: 300px;
+}
+.sup{
+    width: 300px;
+    position: relative;
+    left: 930px;
+    bottom: 500px;
+    line-height: 25px;
     color: white;
 }
 .talk{
@@ -406,6 +447,7 @@
     position: relative;
     bottom: 800px;
     text-align: center;
+    color: white;
 
 }
 .stay{
@@ -422,8 +464,9 @@
     bottom: 700px;
     left: 300px;
     width: 250px;
-    height: 50px;
+    height: 70px;
     font-size: 20px;
+    color: white;
 }
 .email{
     border-radius: 40px;
@@ -431,8 +474,9 @@
     bottom: 700px;
     left: 350px;
     width: 250px;
-    height: 50px;
+    height: 70px;
     font-size: 20px;
+    color: white;
 }
 .mit{
     border-radius: 40px;
@@ -447,7 +491,8 @@
     position: relative;
     bottom: 500px;
     text-align: center;
-    font-size: 50px;
+    font-size: 53px;
+    gap: 1px;
 }
 .cool{
     position: relative;
@@ -455,4 +500,920 @@
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    color: mediumseagreen;
+}
+.nine{
+    position: relative;
+    left: 180px;
+    bottom: 400px;
+    width: 250px;
+    height: 400px;
+    padding: 50px;
+}
+.nine:hover{
+    
+    box-shadow: 0 5px 15px gray;} 
+.dollar{
+    font-size: 20px;
+    position: relative;
+     top: -55px;
+    left: -5px;
+}
+.number{
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+}
+.month {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+    left: 5px;}
+.basic{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+.stortage{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.center{
+    text-align: center;
+}
+.project{
+    text-align: center;
+    border-radius: 40px;
+    width: 250px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;}
+.twetly{
+     position: relative;
+    left: 630px;
+    bottom: 890px;
+    width: 250px;
+    height: 400px;
+    padding: 50px;
+}
+.premium{
+     position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+.twetly:hover{
+    
+    box-shadow: 0 5px 15px gray;} 
+.eight{
+     position: relative;
+    left: 1030px;
+    bottom: 1390px;
+    width: 250px;
+    height: 400px;
+    padding: 50px;
+}
+.elite{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.eight:hover{
+    
+    box-shadow: 0 5px 15px gray;} 
+.projec{
+     text-align: center;
+    border-radius: 40px;
+    width: 250px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: mediumseagreen;
+    color: white;
+}    
+.hear{
+    position: relative;
+    bottom: 1300px;
+    text-align: center;
+    font-size: 50px;
+}
+.meow{
+    color: mediumseagreen;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    bottom: 1300px;
+    text-align: center;
+}
+.private{
+    border-radius: 50px;
+    width: 230px;
+    height: 60px;
+    font-size: 20px;
+    position: relative;
+    bottom: 1280px;
+    font-weight: bold;
+    left: 630px;
+    color: white;
+    background-color: mediumseagreen;
+    
+}
+.tree{
+    position: relative;
+    bottom: 1100px;
+    left: 300px;
+}
+.copyright{
+    position: relative;
+    bottom: 1180px;
+    left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.contact{
+    position: relative;
+    bottom: 1190px;
+    left: 400px;
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+
+    color: rgb(107, 111, 111);
+}
+.sunday{
+    position: relative;
+    bottom: 1250px;
+    left: 1100px;
+     font-size: 40px;
+    
+}
+.monday{
+  position: relative;
+    bottom: 1295px;
+    left: 1170px;
+     font-size: 40px;
+     
+}
+.wed{
+    position: relative;
+    bottom: 1340px;
+    left: 1240px;
+     font-size: 40px; 
+
+}
+*{
+     font-family: 'Arimo', sans-serif;
+
+}
+.footer{
+   background-color: rgb(48, 45, 45);
+   position: relative;
+   height: 350px;
+   bottom: 1100px;
+}
+.down{
+    position: relative;
+    top: 1200px;
+}
+.three{
+    color: li;
+    text-decoration: none;
+    color:  rgb(107, 111, 111);
+}
+.with{
+    background-color: mediumseagreen;
+    position: relative;
+    bottom: 800px;
+    height: 450px;
+}
+.two{
+    position: relative;
+    top: 840px;
+}
+body{
+    overflow-x: hidden;
+}
+
+footer{
+    overflow-y: hidden;
+}
+.home{
+    text-decoration: none;}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .header {
+        position: static;
+        width: 100%;
+        left: auto;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .header img {
+        display: block;
+        margin: 15px auto;
+    }
+
+    .nav {
+        position: static;
+        left: auto;
+        bottom: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .box {
+        position: static;
+        left: auto;
+        bottom: auto;
+        display: block;
+        width: 150px;
+        height: 45px;
+        margin: 10px auto 20px;
+        font-size: 16px;
+    }
+
+
+    .banner {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding: 100px 20px 40px;
+    }
+
+    .chase {
+        position: static;
+        left: auto;
+        top: auto;
+        font-size: 55px;
+        margin: 0 0 20px;
+    }
+
+    .clean {
+        position: static;
+        left: auto;
+        top: auto;
+        font-size: 15px;
+        margin: 20px 0;
+        line-height: 1.5;
+    }
+
+    .try,
+    .learn {
+        position: static;
+        left: auto;
+        top: auto;
+        display: block;
+        width: 80%;
+        max-width: 250px;
+        height: 50px;
+        margin: 15px auto;
+    }
+
+    .what {
+        position: static;
+        top: auto;
+        width: 100%;
+        font-size: 32px;
+        text-align: center;
+        margin: 40px 0 15px;
+    }
+
+    .watch {
+        position: static;
+        left: auto;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        margin: 10px 0 25px;
+    }
+
+    .video {
+        position: static;
+        top: auto;
+        left: auto;
+        display: block;
+        width: 90%;
+        max-width: 500px;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .begin {
+        position: static;
+        top: auto;
+        left: auto;
+        display: block;
+        width: 200px;
+        height: 55px;
+        margin: 30px auto 50px;
+    }
+
+    .services {
+        position: static;
+        top: auto;
+        left: auto;
+        bottom: auto;
+        width: 100%;
+        font-size: 38px;
+        text-align: center;
+        margin: 40px 0 10px;
+    }
+
+    .do {
+        position: static;
+        top: auto;
+        left: auto;
+        bottom: auto;
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        margin: 0 0 30px;
+    }
+
+    .shadow,
+    .camera,
+    .flim {
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+
+        width: 90%;
+        max-width: 350px;
+        min-height: 280px;
+        height: auto;
+
+        margin: 25px auto;
+        padding: 35px 20px;
+
+        text-align: center;
+    }
+
+    .shadow i,
+    .camera i {
+        font-size: 45px;
+    }
+
+    .shadow h2,
+    .camera h2,
+    .flim h2 {
+        font-size: 24px;
+    }
+
+    .shadow p,
+    .camera p,
+    .flim p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .bulb {
+        position: static;
+        left: auto;
+        bottom: auto;
+        display: block;
+        width: 180px;
+        height: auto;
+        margin: 50px auto 20px;
+    }
+
+    .love {
+        position: static;
+        left: auto;
+        bottom: auto;
+        width: 90%;
+        margin: 20px auto 50px;
+        text-align: center;
+    }
+
+    .we {
+        font-size: 38px;
+        line-height: 1.1;
+        margin: 0 0 15px;
+    }
+
+    .to {
+        font-size: 16px;
+    }
+
+    .love p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    .features {
+        position: static;
+        left: auto;
+        top: auto;
+        bottom: auto;
+
+        width: 100%;
+        height: auto;
+
+        padding: 50px 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon {
+        width: 100%;
+        margin: 0;
+    }
+
+    .eye,
+    .attent,
+    .clock,
+    .save,
+    .dash,
+    .com,
+    .headset,
+    .sup {
+        position: static;
+
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+
+        width: 90%;
+        max-width: 350px;
+
+        margin: 20px auto;
+
+        text-align: center;
+    }
+
+    .attent,
+    .save,
+    .com,
+    .sup {
+        color: white;
+        line-height: 1.6;
+    }
+
+    .eye img,
+    .clock img,
+    .dash img,
+    .headset img {
+        margin: auto;
+    }
+
+    .talk {
+        position: static;
+        left: auto;
+        bottom: auto;
+
+        width: 90%;
+        margin: 50px auto 30px;
+        text-align: center;
+    }
+
+    .let {
+        font-size: 38px;
+    }
+
+    .need {
+        font-size: 16px;
+    }
+
+    .sit {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .bubble {
+        position: static;
+        left: auto;
+        bottom: auto;
+
+        display: block;
+        width: 80%;
+        max-width: 368px;
+
+        margin: 30px auto 60px;
+    }
+    .lead {
+        position: static;
+        bottom: auto;
+
+        width: 100%;
+        font-size: 38px;
+        text-align: center;
+        margin: 40px 0 10px;
+    }
+
+    .know {
+        position: static;
+        bottom: auto;
+
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .john,
+    .mills,
+    .scott {
+        position: static;
+
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+
+        margin: 30px auto;
+        padding: 25px;
+
+        text-align: center;
+    }
+
+    .GARRET,
+    .ALICE,
+    .HARRIS {
+        display: block;
+        width: 180px;
+        max-width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 0 auto 20px;
+    }
+
+    .john .facebook,
+    .john .twitter,
+    .john .google,
+    .mills .facebook,
+    .mills .twitter,
+    .mills .google,
+    .scott .facebook,
+    .scott .twitter,
+    .scott .google {
+        position: static;
+
+        left: auto;
+        bottom: auto;
+
+        display: inline-flex;
+
+        width: 50px;
+        height: 50px;
+
+        margin: 5px;
+    }
+
+
+
+    .port {
+        position: static;
+        bottom: auto;
+
+        width: 100%;
+        font-size: 38px;
+        text-align: center;
+        margin: 60px 0 10px;
+    }
+
+    .our {
+        position: static;
+        bottom: auto;
+
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .pic {
+        position: static;
+        left: auto;
+        bottom: auto;
+
+        width: 90%;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pic img {
+        width: 100%;
+        max-width: 370px;
+        height: auto;
+        margin: auto;
+    }
+
+
+
+    .with {
+        position: static;
+        bottom: auto;
+
+        width: 100%;
+        height: auto;
+
+        padding: 50px 20px;
+        margin-top: 60px;
+    }
+
+    .two {
+        position: static;
+        top: auto;
+
+        width: 100%;
+    }
+
+    .sub {
+        position: static;
+        bottom: auto;
+
+        width: 100%;
+        font-size: 38px;
+        text-align: center;
+        margin: 0 0 10px;
+    }
+
+    .stay {
+        position: static;
+        bottom: auto;
+
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .name,
+    .email {
+        position: static;
+
+        left: auto;
+        bottom: auto;
+
+        display: block;
+
+        width: 90%;
+        max-width: 350px;
+        height: 55px;
+
+        margin: 15px auto;
+
+        color: black;
+        padding: 15px;
+    }
+
+    .mit {
+        position: static;
+
+        left: auto;
+        bottom: auto;
+
+        display: block;
+
+        width: 180px;
+        height: 50px;
+
+        margin: 20px auto;
+    }
+
+    .it {
+        position: static;
+        bottom: auto;
+
+        width: 100%;
+        font-size: 38px;
+        text-align: center;
+        margin: 60px 0 10px;
+    }
+
+    .cool {
+        position: static;
+        bottom: auto;
+
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .nine,
+    .twetly,
+    .eight {
+        position: static;
+
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+
+        min-height: 400px;
+
+        margin: 30px auto;
+        padding: 35px 20px;
+
+        text-align: center;
+    }
+
+    .price {
+        text-align: center;
+    }
+
+    .dollar,
+    .number,
+    .month {
+        position: static;
+        left: auto;
+        top: auto;
+        bottom: auto;
+    }
+
+    .dollar {
+        font-size: 18px;
+    }
+
+    .number {
+        font-size: 60px;
+    }
+
+    .month {
+        font-size: 18px;
+    }
+
+    .basic,
+    .premium,
+    .elite {
+        position: static;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .stortage {
+        position: static;
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: center;
+    }
+
+    .project,
+    .projec {
+        width: 80%;
+        max-width: 220px;
+        height: 55px;
+        margin: 10px auto;
+    }
+
+    .hear {
+        position: static;
+        bottom: auto;
+
+        width: 100%;
+        font-size: 38px;
+        text-align: center;
+        margin: 60px 0 10px;
+    }
+
+    .meow {
+        position: static;
+        bottom: auto;
+
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .private {
+        position: static;
+
+        left: auto;
+        bottom: auto;
+
+        display: block;
+
+        width: 200px;
+        height: 55px;
+
+        margin: 25px auto 60px;
+    }
+
+    .footer {
+        position: static;
+
+        width: 100%;
+        height: auto;
+
+        padding: 50px 20px;
+
+        text-align: center;
+    }
+
+    .down {
+        position: static;
+        top: auto;
+
+        width: 100%;
+    }
+
+    .tree {
+        position: static;
+
+        left: auto;
+        bottom: auto;
+
+        display: block;
+
+        width: 56px;
+        height: auto;
+
+        margin: 0 auto 20px;
+    }
+
+    .copyright {
+        position: static;
+
+        left: auto;
+        bottom: auto;
+
+        font-size: 14px;
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    .contact {
+        position: static;
+
+        left: auto;
+        bottom: auto;
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        font-size: 14px;
+    }
+
+    .sunday,
+    .monday,
+    .wed {
+        position: static;
+
+        left: auto;
+        bottom: auto;
+
+        display: inline-flex;
+
+        margin: 10px;
+        font-size: 30px;
+    }
+
 }
